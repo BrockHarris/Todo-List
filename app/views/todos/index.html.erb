@@ -1,0 +1,6 @@
+<%= link_to "The To-do List", root_url, :class=>"title" %>
+<%= render 'form' %>
+<% if @todos.count > 0 %>
+	<%= render 'search_form' %>
+<% end %>
+<%= render @todos %>

@@ -1,0 +1,80 @@
+/**** master stylesheet for to-do list ****/
+
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	margin:0;
+  background: url('texture.png');
+}
+.main_container {
+	background-color:#FFF;
+	width:460px;
+	padding:5px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	-webkit-box-shadow:  0px 2px 5px 3px #333;
+  box-shadow:  0px 2px 5px 3px #333;
+}
+.title {
+	text-decoration:none;
+	width:100%;
+	display:block;
+	font-size:28pt;
+	text-align:center;
+	margin:0 0 10px 0;
+	color:#0D56A6;
+	border-bottom:1px solid #ccc;
+}
+.title:hover {
+	background:#EEE;
+}
+.todo_field {
+	font-size:14pt;
+	text-align:center;
+	color:#666;
+	width:400px;
+	height:32px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	display:block;
+	border: 1px solid #DDD;
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+}
+.todo_field:focus {
+	outline: none;
+}
+.list_field {
+	margin:0;
+	padding-left:10px;
+	font-size:16pt;
+	width:400px;
+	height:40px;
+	background:none;
+	border:none;
+}
+.list_field:focus {
+	outline: none;
+}
+.todo_container {
+	background-color:#DCF0FF;
+	margin-bottom:3px;
+	height:40px;
+}
+.todo_container:hover {
+	background-color:#EEE;
+}
+.delete {
+	background: url('delete.png');
+	display:block;
+	float:right;
+	margin-top:13px;
+	margin-right:8px;
+	height:16px;
+	width:16px;
+}
